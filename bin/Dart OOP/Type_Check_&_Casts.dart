@@ -4,19 +4,19 @@ class Employee {
 }
 
 class Manager extends Employee {
-  Manager(String name) : super(name);
+  Manager(super.name);
 }
 
 class VicePresident extends Manager {
-  VicePresident(String name) : super(name);
+  VicePresident(super.name);
 }
 
 void sayHello(Employee employee) {
   if (employee is VicePresident) {
-    VicePresident vicePresident = employee as VicePresident;
+    VicePresident vicePresident = employee;
     print("Hello Vice President ${vicePresident.name}");
   } else if (employee is Manager) {
-    Manager manager = employee as Manager;
+    Manager manager = employee;
     print("Hello Manager ${manager.name}");
   } else {
     print("Hello Employee ${employee.name}");

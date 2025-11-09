@@ -9,13 +9,17 @@ abstract class HasBrand {
 }
 
 class NissanGTR implements Car, HasBrand {
+  @override
   String name = "Nissan GTR";
 
+  @override
   void drive() {
     print("Nissan GTR is driving");
   }
 
+  @override
   int getTire() => 4;
+  @override
   String getBrand() => "Nissan";
 }
 

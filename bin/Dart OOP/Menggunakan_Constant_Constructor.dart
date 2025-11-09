@@ -6,8 +6,8 @@ class ImmutablePoint {
 }
 
 void main() {
-  const point1 = const ImmutablePoint(10, 10);
-  const point2 = const ImmutablePoint(10, 10);
+  const point1 = ImmutablePoint(10, 10);
+  const point2 = ImmutablePoint(10, 10);
 
   print(point1 == point2);
 }

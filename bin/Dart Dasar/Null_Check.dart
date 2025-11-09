@@ -2,7 +2,7 @@ void main() {
   // int? age = null;
   //print(age.toDouble());
 
-  int? age = null;
+  int? age;
   if (age != null) {
     print(age.toDouble());
   }

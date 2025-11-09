@@ -3,22 +3,25 @@ class Employee {
 
   Employee(this.name);
 
+  @override
   String toString() {
     return "Employee: $name";
   }
 }
 
 class Manager extends Employee {
-  Manager(String name) : super(name);
+  Manager(super.name);
 
+  @override
   String toString() {
     return "Manager: $name";
   }
 }
 
 class VicePresident extends Manager {
-  VicePresident(String name) : super(name);
+  VicePresident(super.name);
 
+  @override
   String toString() {
     return "Vice President: $name";
   }

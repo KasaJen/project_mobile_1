@@ -4,11 +4,11 @@ class Employee {
 }
 
 class Manager extends Employee {
-  Manager(String name) : super(name);
+  Manager(super.name);
 }
 
 class VicePresident extends Manager {
-  VicePresident(String name) : super(name);
+  VicePresident(super.name);
 }
 
 void sayHello(Employee employee) {

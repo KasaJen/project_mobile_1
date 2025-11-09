@@ -5,6 +5,7 @@ class Shape {
 }
 
 class Rectangle extends Shape {
+  @override
   int getCorner() {
     return 4;
   }

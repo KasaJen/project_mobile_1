@@ -1,9 +1,9 @@
 void main() {
-  var upperFunction = (String name) {
+  String upperFunction(String name) {
     return name.toUpperCase();
-  };
+  }
 
-  var lowerFunction = (String name) => name.toLowerCase();
+  String lowerFunction(String name) => name.toLowerCase();
 
   print(upperFunction('Reza'));
   print(lowerFunction('Reza'));

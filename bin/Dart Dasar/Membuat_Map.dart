@@ -1,6 +1,6 @@
 void main() {
   Map<String, String> person = {};
-  var product = Map<String, String>();
+  var product = <String, String>{};
   var address = <String, String>{};
 
   print(person);

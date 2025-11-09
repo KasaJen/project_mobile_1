@@ -20,7 +20,7 @@ void main(){
   print(person.name);
   print(person.country);
 
-  var person2 = Person.withAddress("Banjarmasin");;
+  var person2 = Person.withAddress("Banjarmasin");
   print(person2.address);
   print(person.country);
   

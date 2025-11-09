@@ -7,5 +7,6 @@ class Person {
 }
 
 class OtherPerson extends Person {
+  @override
   String name = "Other Person";
 }

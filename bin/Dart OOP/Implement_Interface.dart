@@ -11,12 +11,15 @@ class Car {
 }
 
 class NissanGTR implements Car {
+  @override
   String name = "Nissan GTR";
 
+  @override
   void drive() {
     print("Drive Nissan GTR");
   }
 
+  @override
   int getTire() {
     return 4;
   }

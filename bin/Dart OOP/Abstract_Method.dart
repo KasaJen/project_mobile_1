@@ -5,6 +5,7 @@ abstract class Animal {
 }
 
 class Cat extends Animal {
+  @override
   void run() {
     print("Cat $name is running");
   }
